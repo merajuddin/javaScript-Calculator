@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<center>
+<div class="wrapper">
+	<center>
+ 		<form name="frm">
+ 			<input id = "textbox" placeholder="0" name="result"><br><br>
+ 			<input class="top" type="button" name="1" value="1" onclick="fun(1)">
+ 			<input class="top" type="button" name="2" value="2" onclick="fun(2)">
+ 			<input class="top" type="button" name="3" value="3" onclick="fun(3)">
+ 			<input class="top" id ="side" type="button" name="+" value="+" onclick="plus()"><br>
+
+ 			<input class="top" type="button" name="4" value="4" onclick="fun(4)">
+ 			<input class="top" type="button" name="5" value="5" onclick="fun(5)">
+ 			<input class="top" type="button" name="6" value="6" onclick="fun(6)">
+ 			<input class="top" id ="side" type="button" name="-" value="-" onclick="minus()"><br>
+
+ 			<input class="top" type="button" name="7" value="7" onclick="fun(7)">
+ 			<input class="top" type="button" name="8" value="8" onclick="fun(8)">
+ 			<input class="top" type="button" name="9" value="9" onclick="fun(9)">
+ 			<input class="top" id ="side" type="button" name="x" value="x" onclick="multiply()"><br>
+
+ 			<input class="top" type="button" name="0" value="0" onclick="fun(0)">
+ 			<input class="top" type="button" name="." value="." onclick="dot()">
+ 			<input class="top" type="button" name="%" value="%" onclick="mod()">
+ 			<input class="top" id ="side" type="button" name="/" value="/" onclick="divide()"><br>
+
+ 			<input class ="bottom" id = "side" type="button" name="c" value="C" onclick="clr()">
+ 			<input class= "bottom" id = "side" type="button" name="total" value="=" onclick="calculation()"><br/>
+ 		</form>
+	</center>
+</div>
+</center>
+
+<script src="script/script.js"></script>
+</body>
+</html>
